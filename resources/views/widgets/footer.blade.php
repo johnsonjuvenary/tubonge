@@ -3,7 +3,7 @@
         <div class="col-sm-6">
         </div>
         <div class="text-right col-sm-6">
-            Tuchati © @php
+            Tubonge © @php
             echo date('Y');
             @endphp All rights reserved.
         </div>
