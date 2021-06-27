@@ -1,4 +1,4 @@
-## Laravel 8 - Simple Location-Based Social Network 
+## Tubonge - Simple Location-Based Social Network 
 It's location-based social network using the Laravel PHP framework.
 
 
