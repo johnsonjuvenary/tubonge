@@ -43,7 +43,7 @@
                     Log In
                 </button>
                 <div class="clearfix"></div>
-                <a class="hidden btn btn-link btn-forgot" href="{{ route('password.request') }}">
+                <a class="btn btn-link btn-forgot" href="{{ route('password.request') }}">
                     Forgot Your Password?
                 </a>
             </div>
