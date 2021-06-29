@@ -13,16 +13,15 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/pace-master/themes/white/pace-theme-flash.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/fancybox/dist/jquery.fancybox.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css') }}"
-        rel="stylesheet">
-    <link href="{{ secure_asset('plugins/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/select2/dist/css/select2.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('plugins/bootstrap/css/bootstrap-theme.min.css') }}" rel="stylesheet">
-    <link href="{{ secure_asset('css/around.css') }}" rel="stylesheet">
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/pace-master/themes/white/pace-theme-flash.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="plugins/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap3-dialog/dist/css/bootstrap-dialog.min.css" rel="stylesheet">
+    <link href="plugins/select2/dist/css/sel.ect2.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/around.css" rel="stylesheet">
 
     @yield('header')
 </head>
@@ -44,7 +43,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        <img src="{{ secure_asset('images/logo.png') }}" alt="" />
+                        <img src="images/logo.png" alt="" />
                     </a>
                 </div>
 
@@ -127,19 +126,19 @@
     var CSRF = "{{ csrf_token() }}";
     var WALL_ACTIVE = false;
     </script>
-    <script src="{{('/plugins/jquery/jquery-2.1.4.min.js')  }}"></script>
-    <script src="{{('/plugins/pace-master/pace.min.js') }}"></script>
-    <script src="{{('/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{('/plugins/jquery.serializeJSON/jquery.serializejson.min.js') }}"></script>
-    <script src="{{('/plugins/fancybox/dist/jquery.fancybox.min.js') }}"></script>
-    <script src="{{('/plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js') }}"></script>
-    <script src="{{('/plugins/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js') }}"></script>
-    <script src="{{('/plugins/select2/dist/js/select2.full.min.js') }}"></script>
+    <script src="plugins/jquery/jquery-2.1.4.min.js'"></script>
+    <script src="plugins/pace-master/pace.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/jquery.serializeJSON/jquery.serializejson.min.js"></script>
+    <script src="plugins/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="plugins/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="plugins/bootstrap3-dialog/dist/js/bootstrap-dialog.min.js"></script>
+    <script src="plugins/select2/dist/js/select2.full.min.js"></script>
     <script src="//maps.google.com/maps/api/js?key=<?=config('googlemaps.key')?>"></script>
-    <script src="{{('/plugins/gmaps/gmaps.min.js') }}"></script>
-    <script src="{{('/js/around.js') }}"></script>
-    <script src="{{('/js/wall.js') }}"></script>
-    <script src="{{('/js/notifications.js') }}"></script>
+    <script src="plugins/gmaps/gmaps.min.js"></script>
+    <script src="js/around.js') }}"></script>
+    <script src="js/wall.js') }}"></script>
+    <script src="js/notifications.js"></script>
     @yield('footer')
     <script type="text/javascript">
         @if(!Auth::user()->has('location'))
