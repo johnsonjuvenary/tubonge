@@ -1,4 +1,4 @@
-<form class="register" role="form" method="POST" action="{{ route('register') }}">
+<form class="register" role="form" method="POST" action="register">
     <input type="hidden" value="register" name="tab" />
     {{ csrf_field() }}
     <h2>Start Connecting Millions of People!</h2>
