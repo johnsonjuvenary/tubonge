@@ -13,10 +13,10 @@
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('plugins/bootstrap/css/bootstrap-theme.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/guest.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('plugins/bootstrap/css/bootstrap-theme.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/guest.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         <div class="row">
             <div class="col-md-6">
                 <a href="{{ url('/') }}" class="logo">
-                    <img src="{{ asset('images/guest_logo.png') }}" alt="" />
+                    <img src="{{ secure_asset('images/guest_logo.png') }}" alt="" />
                 </a>
             </div>
 
@@ -57,8 +57,8 @@
         @include('widgets.footer')
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('plugins/jquery/jquery-3.2.1.min.js') }}"></script>
-    <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ secure_asset('plugins/jquery/jquery-3.2.1.min.js') }}"></script>
+    <script src="{{ secure_asset('plugins/bootstrap/js/bootstrap.min.js') }}"></script>
 </body>
 
 </html>
