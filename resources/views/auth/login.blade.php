@@ -1,4 +1,4 @@
-<form role="form" method="POST" action="{{ route('login') }}">
+<form role="form" method="POST" action="login">
     <input type="hidden" value="login" name="tab" />
     {{ csrf_field() }}
     <h2>Connect with Tubonge to people!</h2>
@@ -43,7 +43,7 @@
                     Log In
                 </button>
                 <div class="clearfix"></div>
-                <a class="btn btn-link btn-forgot" href="{{ route('password.request') }}">
+                <a class="btn btn-link btn-forgot" href="password.request">
                     Forgot Your Password?
                 </a>
             </div>
