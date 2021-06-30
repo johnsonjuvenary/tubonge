@@ -29,7 +29,7 @@
                     @foreach($groups->get() as $group)
 
                             <div class="col-sm-6 col-md-4">
-                                <a class="bs-box" href="{{ url('/group/'.$group->id) }}">
+                                <a class="bs-box" href="'/group/'.$group->id">
                                     <h3>{{ $group->hobby->name }}</h3>
                                     <p>People in {{ $city->name }}: {{ $group->countPeople($city->id) }}</p>
                                 </a>
