@@ -27,7 +27,7 @@
                     </div>
                     <div class="col-md-9">
 
-                        <a href="{{ url('/group/'.$group->id.'') }}" class="btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Back to group page</a>
+                        <a href="'/group/'.$group->id.''" class="btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Back to group page</a>
 
 
 
