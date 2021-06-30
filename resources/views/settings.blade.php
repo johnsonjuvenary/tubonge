@@ -22,7 +22,7 @@
                     <div class="panel-body">
 
 
-                        <form class="form-horizontal" role="form" method="POST" action="{{ url('/settings') }}">
+                        <form class="form-horizontal" role="form" method="POST" action="settings">
                             {{ csrf_field() }}
 
                             <input type="hidden" name="type" value="account" />
@@ -91,7 +91,7 @@
                     <div class="panel-body">
 
 
-                        <form class="form-horizontal" role="form" method="POST" action="{{ url('/settings') }}">
+                        <form class="form-horizontal" role="form" method="POST" action="settings">
                             {{ csrf_field() }}
 
                             <input type="hidden" name="type" value="username" />
@@ -133,7 +133,7 @@
                     <div class="panel-body">
 
 
-                        <form class="form-horizontal" role="form" method="POST" action="{{ url('/settings') }}">
+                        <form class="form-horizontal" role="form" method="POST" action="settings">
                             {{ csrf_field() }}
 
                             <input type="hidden" name="type" value="password" />
