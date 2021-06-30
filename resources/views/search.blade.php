@@ -59,13 +59,13 @@
                                                     <div class="front">
                                                         <div class="cover" style="background-image: url('{{ $user_p->getCover() }}')"></div>
                                                         <div class="user">
-                                                            <a href="{{ url('/'.$user_p->username) }}">
+                                                            <a href="'/'.$user_p->username">
                                                                 <img class="img-circle @if($user_p->sex == 1){{ 'female' }}@endif" src="{{ $user_p->getPhoto(130, 130) }}"/>
                                                             </a>
                                                         </div>
                                                         <div class="content" style="padding-bottom: 20px">
                                                             <div class="main">
-                                                                <a href="{{ url('/'.$user_p->username) }}">
+                                                                <a href="'/'.$user_p->username">
                                                                     <h3 class="name">{{ $user_p->name }}</h3>
                                                                     <p class="profession">
                                                                         {{ '@'.$user_p->username }}
